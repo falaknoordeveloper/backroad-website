@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back roads website</title>
+    <link rel="stylesheet"  href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<header>
+  
+    <div class="logo">
+        <img src="media/logo.svg">  
+    </div>
+    <div class="menuIcon"  onclick="toggleMenu()">
+        <img src="./media/menu.png">
+    </div>
+    <nav class="menu" id="menu">
+        
+        <div class="cross" onclick="toggleMenu()">
+            <img src="./media/close.png">
+        </div>
+    
+<ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#featured">Featured </a></li>
+    <li><a href="#gallery">Gallery</a></li>
+
+</ul>
+<div class="social-icons">
+    <i class="fa-brands fa-facebook" style="color: #74C0FC;"></i>
+    <i class="fa-brands fa-twitter" style="color: #74C0FC;"></i>
+    <i class="fa-brands fa-squarespace" style="color: #74C0FC;"></i>
+</div>
+ </nav>
+ </header>
+
+ <main>
+    <section class="hero" id="home">
+        <div class="hero-content">
+       <h1>CONTINUE EXPLORING</h1>  
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae <br>explicabo debitis est autem dicta.</p>
+          <br>  
+        <a href="#" class="btn">Explore &nbsp;Tours</a>
+        </div>
+    </section>
+    <!-- About us section -->
+    <section class="about-us" id="about">
+        <h1>ABOUT <span>US</span></h1>
+     <div class="container">
+        
+     <div class="about-img">
+        <div class="box">
+            
+        </div>
+    <img src="./media/about.jpg">
+     </div>
+
+     <div class="about-content">
+    <h2>Explore The Difference</h2>
+    <br>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quisquam<br> harum nam cumque temporibus explicabo dolorum sapiente odio unde dolor?</p>
+    <br>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quisquam<br> harum nam cumque temporibus explicabo dolorum sapiente odio unde dolor?</p>
+    <br>
+    <a href="#" class="btn2">Read &nbsp; More</a>
+</div>
+</div>
+    </section>
+    <!-- our services section 
+    <section class="services" id="services">
+    <h1>OUR <span>SERVICES</span></h1>
+     <div class="three-services">
+    <div class="service-one">
+        <i class="fa-solid fa-wallet"></i> 
+        </div> 
+        <div  class="title">
+    <h3>saving money</h3>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Asperiores, officia.</p>
+   </div> 
+     <div class="service-two">
+        <i class="fa-solid fa-tree"></i>
+        </div>
+        <div  class="title">
+        <h3>Endless Hiking</h3>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Asperiores, officia.</p>
+     </div>
+    <div class="service-three">
+     <i class="fa-solid fa-socks"></i>
+    </div>
+    <div class="title">
+    <h3>Amazing Comfort</h3>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Asperiores, officia.</p>
+    </div>
+</div>
+    </section> -->
+
+    <!-- Featured tours stylinng -->
+    <section class="featured-tours" id="featured">
+        <h1>FEATURED <span>TOURS</span></h1>
+    <div class="cards-container">
+    <div class="card">
+        <div class="head-date">
+            <img src="./media/img1.jpg">
+            <div class="date">August 26th, 2020</div>
+        </div>
+    
+        <div class="content">
+            <h3>Tibet Adventure</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Cumque vitae tempore<br> voluptatum maxime reprehenderit eum <br>quod exercitationem fugit, qui corporis.</p>
+            <br>
+            <div class="info">
+            <span><i class="fa-solid fa-map" style="color: #74C0FC;"></i>&nbsp; China</span>
+             &nbsp;
+                <span>6 Days</span>
+                &nbsp;
+            <span>From $2100</span>
+                </div>
+        </div>
+    </div> 
+    <div class="card">
+        
+        <div class="head-date">
+            <img src="./media/img2.jpg">
+            <div class="date">October 11th, 2020</div>
+          
+        </div>
+    
+        <div class="content">
+            <h3>Best of Java</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Cumque vitae tempore<br> voluptatum maxime reprehenderit eum <br>quod exercitationem fugit, qui corporis.</p>
+            <br>
+            <div class="info">
+            <span><i class="fa-solid fa-map" style="color: #74C0FC;"></i>&nbsp;Indonesia</span>
+             &nbsp;
+                <span>11 Days</span>
+                &nbsp;
+            <span>From $1400</span>
+                </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="head-date">
+            <img src="./media/img3.jpg">
+            <div class="date">September 15th, 2020</div>
+        </div>
+      
+        <div class="content">
+            <h3>Explore Hong Kong</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Cumque vitae tempore<br> voluptatum maxime reprehenderit eum <br>quod exercitationem fugit, qui corporis.</p>
+            <br>
+            <div class="info">
+            <span><i class="fa-solid fa-map" style="color: #74C0FC;">&nbsp;</i>Hong Kong</span>
+             &nbsp;
+                <span>8 Days</span>
+                &nbsp;
+            <span>From $5000</span>
+                </div>
+        </div>
+</div>
+<div class="card">
+  
+    <div class="head-date">
+        <img src="./media/img4.jpg">
+        <div class="date">December 5th, 2019</div>
+    </div>
+   
+    <div class="content">
+        <h3>Kenya Highlights</h3>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Cumque vitae tempore<br> voluptatum maxime reprehenderit eum <br>quod exercitationem fugit, qui corporis.</p>
+        <br>
+        <div class="info">
+        <span><i class="fa-solid fa-map" style="color: #74C0FC;"></i>&nbsp;Kenya</span>
+         &nbsp;
+            <span>20 Days</span>
+            &nbsp;
+        <span>From $3300</span>
+            </div>
+    </div>
+</div>
+<div class="cards-button">
+    <a href="#" class="btn3">All &nbsp; Tours</a>
+</div>
+
+     </section>
+     <section class="contact-section" id="contact">
+        
+            <div class="content-part">
+                <h3>Want Latest Tour Info And Updates?</h3>
+                <p>Sign up for newsletter and stay up to date</p>
+            </div>
+            
+            <form class="signup-form">
+                <input type="email"  class="form-control" placeholder="Your Email" required>
+                &nbsp;  &nbsp;<button type="submit">Submit</button>
+            </form>  
+        </div>
+     </section>
+     <section class="gallery" id="gallery">
+        <div class="gallery-imgs">
+         <div class="search-img">
+        <img src="./media/img1.jpg"> 
+        <div class="search-icon">
+            <img src="./media/search-svgrepo-com.svg">
+        </div>  
+            </div>
+    
+            <div class="search-img">
+               <img src="./media/img2.jpg">
+               <div class="search-icon">
+                <img src="./media/search-svgrepo-com.svg">
+            </div> 
+            </div>
+
+            <div class="search-img">
+                <img src="./media/img3.jpg">
+                <div class="search-icon">
+                    <img src="./media/search-svgrepo-com.svg">
+                </div> 
+            </div>
+      
+
+            <div class="search-img">
+            <img src="./media/img4.jpg">
+            <div class="search-icon">
+                <img src="./media/search-svgrepo-com.svg">
+            </div> 
+
+        </div>
+
+        <div class="search-img">
+    <img src="./media/img5.jpg">
+    <div class="search-icon">
+        <img src="./media/search-svgrepo-com.svg">
+    </div> 
+
+</div>
+   <div class="search-img">
+    <img src="./media/img6.jpg">
+    <div class="search-icon">
+        <img src="./media/search-svgrepo-com.svg">
+    </div> 
+</div>
+
+    
+     <div class="search-img">
+        <img src="./media/img7.jpg">
+        <div class="search-icon">
+        <img src="./media/search-svgrepo-com.svg">
+    </div> 
+    </div>
+
+        <div class="search-img">
+        <img src="./media/img8.jpg">
+        <div class="search-icon">
+        <img src="./media/search-svgrepo-com.svg">
+    </div> 
+
+        </div>
+    </div>
+       </section>
+       <div class="footer-container">
+        <div class="footer-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </div>
+        <div class="footer-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-squarespace"></i></a>
+
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; Backroads Travel Tours Company 2024 .All Right Reserved</p>
+        
+        </div>
+       </div>
+
+      
+</main>
+    
+</body>
+<script src="./js/script.js"></script>
+</html>
